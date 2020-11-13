@@ -1,0 +1,58 @@
+.container {
+	width: 100%;
+	max-width: 1280px;
+	padding: 0 40px;
+	margin: 0 auto;
+
+	&.white-container {
+		background-color: $white;
+	}
+}
+
+.highlight-text {
+	font-family: $base-font-sans-serif;
+	font-size: 24px;
+	line-height: 1.2;
+	font-style: italic;
+	font-weight: 400;
+}
+
+.link {
+	font-family: $secondary-sans-serif;
+	font-size: 13px;
+	line-height: 1.616;
+	font-weight: 700;
+	letter-spacing: .12em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: $base-link-color;
+}
+
+.fullwidth-image {
+	display: block;
+	width: 100%;
+
+	img {
+		width: 100%;
+	}
+}
+
+figure {
+	margin: 0 0 1rem;
+}
+
+figcaption {
+	display: block;
+	font-style: italic;
+	text-align: center;
+	font-size: 14px;
+	line-height: 2;
+	font-weight: 400;
+	margin: 1em 0;
+}
+
+hr {
+	border-bottom: 0;
+	border-color: rgba($gray, .1);
+	margin: 1rem 0;
+}

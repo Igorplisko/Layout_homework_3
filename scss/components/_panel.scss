@@ -1,0 +1,38 @@
+.panel {
+	background-color: $white;
+	box-shadow: 0 1px 25px rgba($gray, .25);
+	padding: 25px;
+	margin-bottom: 60px;
+	font-size: 13px;
+	line-height: 1.35;
+	font-family: $secondary-sans-serif;
+	font-weight: 700;
+	letter-spacing: .06em;
+}
+
+.panel-header {
+	margin: -25px -25px 1rem;
+	padding: 25px;
+	color: $white;
+	background-color: $orange;
+	text-transform: uppercase;
+}
+
+.sidebar-menu {
+	@extend %listreset;
+	text-transform: uppercase;
+
+	li {
+		padding: 1rem 0;
+	}
+
+	a {
+		@include animate(color);
+		color: $base-text-color;
+
+		&:hover {
+			opacity: 1;
+			color: $orange;
+		}
+	}
+}

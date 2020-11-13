@@ -1,0 +1,30 @@
+.banner {
+	min-height: 490px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px 0 200px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	text-align: center;
+	color: $white;
+
+	&:after {
+		content: "";
+		display: inline-block;
+		vertical-align: middle;
+		width: 0;
+		height: 270px;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		color: inherit;
+	}
+}
